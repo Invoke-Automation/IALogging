@@ -1,0 +1,12 @@
+{
+    "Parameters": {
+        "LoggingChannels": {
+            "Name": "LOGCHANNELS",
+            "Scope": "Script"
+        },
+        "LoggingSource": {
+            "Name": "LOGSOURCE",
+            "Scope": "Script"
+        }
+    }
+}
