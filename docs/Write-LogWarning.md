@@ -8,7 +8,7 @@ schema: 2.0.0
 # Write-LogWarning
 
 ## SYNOPSIS
-Writes Warning to all registerd LoggingChannels.
+Writes Warning to all registerd LoggingChannels in the LoggingChannelList.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Write-LogWarning [-EventId] <Int32> [-Message] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Write-LogWarning calls the WriteWarning method on all registerd LoggingChannels.
+The Write-LogWarning calls the WriteWarning method on all registerd LoggingChannels in the LoggingChannelList.
 
 ## EXAMPLES
 

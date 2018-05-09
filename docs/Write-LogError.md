@@ -8,7 +8,7 @@ schema: 2.0.0
 # Write-LogError
 
 ## SYNOPSIS
-Writes Error to all registerd LoggingChannels.
+Writes Error to all registerd LoggingChannels in the LoggingChannelList.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Write-LogError [-EventId] <Int32> [-Message] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Write-LogError calls the WriteError method on all registerd LoggingChannels.
+The Write-LogError calls the WriteError method on all registerd LoggingChannels in the LoggingChannelList.
 
 ## EXAMPLES
 

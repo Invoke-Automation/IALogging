@@ -1,6 +1,6 @@
 {
     "Parameters": {
-        "LoggingChannels": {
+        "LoggingChannelList": {
             "Name": "LOGCHANNELS",
             "Scope": "Script"
         },

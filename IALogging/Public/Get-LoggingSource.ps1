@@ -1,4 +1,13 @@
 function Get-LoggingSource {
+	<#
+		.SYNOPSIS
+			Gets the LoggingSource variable.
+		.DESCRIPTION
+			The Get-LoggingSource gets the LoggingSource variable as described in the module Settings.json.
+
+		.EXAMPLE
+			Get-LoggingSource
+	#>
 	[CmdletBinding()]
 	param ()
 	Begin {}

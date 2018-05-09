@@ -1,9 +1,9 @@
 function Add-EventLogChannel {
 	<#
 		.SYNOPSIS
-			Adds an EventLog Channel to the LoggingChannels list
+			Adds an EventLog Channel to the LoggingChannelList list
 		.DESCRIPTION
-			The Add-EventLogChannel cmdlet adds a Channel to the LoggingChannels list that is capable of logging to the EventLog.
+			The Add-EventLogChannel cmdlet adds a Channel to the LoggingChannelList list that is capable of logging to the EventLog.
 
 			To write an event to an event log, the event log must exist on the computer and the source must be registered for the event log.
 			If either the EventLog or the Source don't exist on the computer when this cmdlet is called they will be created.

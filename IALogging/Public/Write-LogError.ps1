@@ -1,9 +1,9 @@
 Function Write-LogError{
 	<#
 		.SYNOPSIS
-			Writes Error to all registerd LoggingChannels.
+			Writes Error to all registerd LoggingChannels in the LoggingChannelList.
 		.DESCRIPTION
-			The Write-LogError calls the WriteError method on all registerd LoggingChannels.
+			The Write-LogError calls the WriteError method on all registerd LoggingChannels in the LoggingChannelList.
 
 		.PARAMETER EventId
 			Specifies the event identifier. This parameter is required. The maximum allowed value for the EventId parameter is 65535.

@@ -44,11 +44,11 @@ Describe 'Write-LogWarning'  {
 		Add-EventLogChannel -EventLogName $Global:eventLogChannelEventLogName -EventLogSourceName $Global:eventLogChannelSourceName
 		Write-LogWarning -EventId $testEventID -Message $testMessage
 
-		It 'Should write to the correct file for all registerd FileLogChannel objects in LoggingChannels' {
+		It 'Should write to the correct file for all registerd FileLogChannel objects in LoggingChannelList' {
 			Assert-MockCalled -CommandName Out-File -Times 2
 		}
 
-		It 'Should write to the correct EventLog for all registerd EventLogChannel objects in LoggingChannels' {
+		It 'Should write to the correct EventLog for all registerd EventLogChannel objects in LoggingChannelList' {
 			Assert-MockCalled -CommandName Write-EventLog -Times 1
 		}
 	}

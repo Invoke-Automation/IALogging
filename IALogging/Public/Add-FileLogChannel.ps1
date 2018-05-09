@@ -1,9 +1,9 @@
 function Add-FileLogChannel {
 	<#
 		.SYNOPSIS
-			Adds a File Channel to the LoggingChannels list
+			Adds a File Channel to the LoggingChannelList list
 		.DESCRIPTION
-			The Add-FileLogChannel cmdlet adds a Channel to the LoggingChannels list that is capable of logging to a file.
+			The Add-FileLogChannel cmdlet adds a Channel to the LoggingChannelList list that is capable of logging to a file.
 
 			If the file does not exist an empty file will be created.
 			If the file exists and the Append switch is not specified the file will be removed and a new empty file will be created.

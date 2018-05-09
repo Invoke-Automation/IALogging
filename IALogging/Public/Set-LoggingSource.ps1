@@ -1,10 +1,25 @@
 function Set-LoggingSource {
+	<#
+		.SYNOPSIS
+			Sets the LoggingSource variable.
+		.DESCRIPTION
+			The Set-LoggingSource sets the LoggingSource variable as described in the module Settings.json.
+
+		.PARAMETER LoggingSource
+			Specifies the value for the LoggingSource variable.
+
+		.EXAMPLE
+			Set-LoggingSource 'My Cool Script'
+	#>
 	[CmdletBinding(
 		SupportsShouldProcess=$true,
 		ConfirmImpact = 'High'
 	)]
 	param (
-		[Parameter(Mandatory=$true)]
+		[Parameter(
+			Mandatory=$true,
+			Position=1
+		)]
 		[System.String]
 		$LoggingSource
 	)

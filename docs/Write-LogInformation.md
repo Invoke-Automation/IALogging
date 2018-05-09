@@ -8,7 +8,7 @@ schema: 2.0.0
 # Write-LogInformation
 
 ## SYNOPSIS
-Writes Information to all registerd LoggingChannels.
+Writes Information to all registerd LoggingChannels in the LoggingChannelList.
 
 ## SYNTAX
 
@@ -17,7 +17,7 @@ Write-LogInformation [-EventId] <Int32> [-Message] <String> [<CommonParameters>]
 ```
 
 ## DESCRIPTION
-The Write-LogInformation calls the WriteInformation method on all registerd LoggingChannels.
+The Write-LogInformation calls the WriteInformation method on all registerd LoggingChannels in the LoggingChannelList.
 
 ## EXAMPLES
 

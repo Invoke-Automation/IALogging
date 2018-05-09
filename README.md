@@ -1,3 +1,7 @@
+---
+URL: https://invoke-automation.github.io/Invoke-Documentation/projects/IALogging/README
+index: 0
+---
 # IALogging
 
 IALogging module is designed to simplify logging to one or more places.

@@ -1,9 +1,9 @@
 Function Write-LogWarning{
 	<#
 		.SYNOPSIS
-			Writes Warning to all registerd LoggingChannels.
+			Writes Warning to all registerd LoggingChannels in the LoggingChannelList.
 		.DESCRIPTION
-			The Write-LogWarning calls the WriteWarning method on all registerd LoggingChannels.
+			The Write-LogWarning calls the WriteWarning method on all registerd LoggingChannels in the LoggingChannelList.
 
 		.PARAMETER EventId
 			Specifies the event identifier. This parameter is required. The maximum allowed value for the EventId parameter is 65535.
